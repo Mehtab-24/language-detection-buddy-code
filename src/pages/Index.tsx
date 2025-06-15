@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Github, Linkedin, Mail, Eye, ExternalLink, Code, Briefcase, GraduationCap } from "lucide-react";
+import { Github, Linkedin, Mail, Eye, ExternalLink, Code, Briefcase, GraduationCap, Award } from "lucide-react";
 
 const Index = () => {
   return (
@@ -161,6 +160,19 @@ const Index = () => {
                 </div>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Certifications</h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center text-gray-500 py-12">
+              <Award className="h-16 w-16 mx-auto mb-4 text-gray-300" />
+              <p className="text-lg">Certifications will be added here</p>
+            </div>
           </div>
         </div>
       </section>
